@@ -189,6 +189,12 @@ input, select, textarea {
 			text-align: justify;
 		}
 
+	.outstanding-text {
+		color: #222121;
+		font-size: 20px;
+	}
+
+
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
 		line-height: 1.5;
@@ -209,6 +215,10 @@ input, select, textarea {
 	h2 {
 		font-size: 1.5em;
 		font-weight: 600;
+	}
+
+	.commonlit {
+		color: #447e86 !important;
 	}
 
 	h3 {
@@ -2367,6 +2377,12 @@ input, select, textarea {
 		position: relative;
 	}
 
+	.centered-image {
+		
+		border-radius: 10px;
+		margin: 0 28%;
+	}
+
 		.image img {
 			border-radius: 8px;
 			display: block;
@@ -2424,6 +2440,7 @@ input, select, textarea {
 			padding-left: 0.25em;
 		}
 
+
 	ul {
 		list-style: disc;
 		margin: 0 0 2em 0;
@@ -2480,6 +2497,9 @@ input, select, textarea {
 			display: block;
 			clear: both;
 		}
+
+
+
 
 	ul.alt li {
 		border-top-color: rgba(255, 255, 255, 0.35);
