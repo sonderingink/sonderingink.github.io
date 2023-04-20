@@ -23,7 +23,15 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
+
+iframe {
+	display:inline-block;
+	border: none;
+	padding: none;
+	margin: 0 -40%;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
