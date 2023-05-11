@@ -2389,7 +2389,10 @@ input, select, textarea {
 	.centered-image {
 		
 		border-radius: 10px;
-		margin: 0 36.5%;
+		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+  		width: 50%;
 	}
 
 		.image img {
